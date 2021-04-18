@@ -33,7 +33,7 @@ Use Convolutional Recurrent Neural Network to recognize the Handwritten line tex
 * Only needed the lines images and lines.txt (ASCII).
 * Place the downloaded files inside data directory  
 
-###### The Trained model is available and download from this [link](https://drive.google.com/file/d/10HHNZPqPQZCQCLrKGQOq5E7zFW5wGcA4/view?usp=sharing). The trained model CER=8.32% and trained on IAM dataset with some additional created dataset.
+Our Trained model is available and download from this [link](https://drive.google.com/file/d/10HHNZPqPQZCQCLrKGQOq5E7zFW5wGcA4/view?usp=sharing). The trained model have CER=8.32% and trained on IAM dataset with some additional created dataset. Put the contents of the downloaded file model.zip into the model directory of the repository.
 
 
 To Train the model from scratch
