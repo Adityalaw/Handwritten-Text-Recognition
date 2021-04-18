@@ -3,7 +3,7 @@
 Use Convolutional Recurrent Neural Network to recognize the Handwritten line text image without pre segmentation into words or characters. Use CTC loss Function to train.
 
 
-## <i> Basic Intuition on How it Works.
+## <i> Algorithm.
 ![Step_wise_detail](images/Step_wise_detail_of_workflow.png?raw=true "Step_Wise Detail")
 * First Use Convolutional Recurrent Neural Network to extract the important features from the handwritten line text Image.
 * The output before CNN FC layer (512x100x8) is passed to the BLSTM which is for sequence dependency and time-sequence operations.
@@ -62,6 +62,6 @@ Without Correction clothed leaf by leaf with the dioappoistmest
 With Correction clothed leaf by leaf with the dioappoistmest
 ```
 **Prediction output on IAM Test Data**
-![PredictionOutput](images/IAM_dataset_Prediction_Output.png?raw=true "Prediction Output On Iam Dataset")
+![PredictionOutput](images/PredictionOutput.png?raw=true "Prediction Output On Iam Dataset")
 
 **Prediction output on Self Test Data**
